@@ -1,7 +1,7 @@
-# Compiled class file
+# Compiled class files
 *.class
 
-# Log file
+# Log files
 *.log
 
 # BlueJ files
@@ -19,6 +19,52 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Maven
+/target
+
+# Gradle
+.gradle/
+/build/
+/out/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+.idea/*
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/libraries
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/inspectionProfiles
+.idea/compiler.xml
+.idea/encodings.xml
+
+# Ignore IntelliJ IDEA project-specific metadata
+*.ipr
+*.iws
+
+# IntelliJ files related to run configurations and other system info
+.idea/runConfigurations/
+.idea/caches/
+.idea/codeStyles/
+
+# Virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# IDE specific cache files
+*.swp
+*.swo
+*.bak
+
+# macOS-specific files
+.DS_Store
+._*
+
+# Windows-specific files
+Thumbs.db
+Desktop.ini
